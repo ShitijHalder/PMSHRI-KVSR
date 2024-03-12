@@ -7,14 +7,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content="The Official website for PM SHRI Kendriya Vidhyalaya Sevoke Road For All Study Related Content (Class 12th Only)"/>
-        <meta name="description" content="This site includes updates for Class 9th for Datesheet, Roadmap, Early Updates To School Exclusive Content, E-Books For All Subjects (For Class 9th Only)"/>
+        <meta name="description" content="This site includes updates for Class 9th for Datesheet, Roadmap, Early Updates To School Exclusive Content, E-Books For All Subjects (For Class 12th Only)"/>
         <!--=============== css  ===============-->
         <link type="text/css" rel="stylesheet" href="css/reset.css">
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/indexresources/kvslogo.ico">
+        <script>
+    $(document).ready(function(){
+        $('a').on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        let images = document.getElementsByTagName('img');
+        for (let img of images) {
+            img.loading = 'lazy';
+        }
+    });
+    </script>
     </head>
     <body>
         <!--loader-->
@@ -70,9 +93,9 @@
                             <!--level 2 -->
                             <ul>
                                 <li><a href="Class11th-Afterhome.html">Index</a></li>
-                                <li><a href="404.html">Science - All Resources</a></li>
-                                <li><a href="404.html">Commerce - All Resources</a></li>
-                                <li><a href="404.html">Humanities - All Resources</a></li>
+                                <li><a href="class11th-science-A2.html">Science - All Resources</a></li>
+                                <li><a href="class11th-commerce-A2.html">Commerce - All Resources</a></li>
+                                <li><a href="class11th-humanities-A2.html">Humanities - All Resources</a></li>
                             </ul>
                             <!--level 2 end -->
                         </li>
@@ -81,9 +104,9 @@
                             <!--level 2 -->
                             <ul>
                                 <li><a href="Class12th-Afterhome.html">Index</a></li>
-                                <li><a href="404.html">Science - All Resources</a></li>
-                                <li><a href="404.html">Commerce - All Resources</a></li>
-                                <li><a href="404.html">Humanities - All Resources</a></li>
+                                <li><a href="class12th-science-A2.html">Science - All Resources</a></li>
+                                <li><a href="class12th-commerce-A2.html">Commerce - All Resources</a></li>
+                                <li><a href="class12th-humanities-A2.html">Humanities - All Resources</a></li>
                             </ul>
                             <!--level 2 end -->
                         </li>
@@ -183,7 +206,7 @@
                                     <h3>Feeling bored?</h3>
                                 </div>
                                 <div class="col-md-4">
-                                    <a href="index.html" class="btn flat-btn color-btn">Read Interesting Things.</a>
+                                    <a href="index.html#sec3" class="btn flat-btn color-btn">Read Interesting Things.</a>
                                 </div>
                                 <!-- other content -->
                             </div>

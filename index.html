@@ -3,7 +3,7 @@
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">
-        <title>PMSHRI-KVSR HOME</title>
+        <title>PM SHRI-KVSR HOME</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta name="robots" content="index, follow"/>
         <meta name="keywords" content="The Official website for PM SHRI Kendriya Vidhyalaya Sevoke Road For All Study Related Content."/>
@@ -14,23 +14,31 @@
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
         <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="shortcut icon" href="images/indexresources/kvslogo.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script>
-            $(document).ready(function(){
-                $('a').on('click', function(event) {
-                    if (this.hash !== "") {
-                        event.preventDefault();
-                        var hash = this.hash;
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 800, function(){
-                            window.location.hash = hash;
-                        });
-                    }
+    $(document).ready(function(){
+        $('a').on('click', function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
                 });
-            });
-        </script>
+            }
+        });
+    });
+</script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        let images = document.getElementsByTagName('img');
+        for (let img of images) {
+            img.loading = 'lazy';
+        }
+    });
+    </script>
     </head>
     <body>
         <!--loader-->
@@ -86,9 +94,9 @@
                             <!--level 2 -->
                             <ul>
                                 <li><a href="Class11th-Afterhome.html">Index</a></li>
-                                <li><a href="404.html">Science - All Resources</a></li>
-                                <li><a href="404.html">Commerce - All Resources</a></li>
-                                <li><a href="404.html">Humanities - All Resources</a></li>
+                                <li><a href="class11th-science-A2.html">Science - All Resources</a></li>
+                                <li><a href="class11th-commerce-A2.html">Commerce - All Resources</a></li>
+                                <li><a href="class11th-humanities-A2.html">Humanities - All Resources</a></li>
                             </ul>
                             <!--level 2 end -->
                         </li>
@@ -97,9 +105,9 @@
                             <!--level 2 -->
                             <ul>
                                 <li><a href="Class12th-Afterhome.html">Index</a></li>
-                                <li><a href="404.html">Science - All Resources</a></li>
-                                <li><a href="404.html">Commerce - All Resources</a></li>
-                                <li><a href="404.html">Humanities - All Resources</a></li>
+                                <li><a href="class12th-science-A2.html">Science - All Resources</a></li>
+                                <li><a href="class12th-commerce-A2.html">Commerce - All Resources</a></li>
+                                <li><a href="class12th-humanities-A2.html">Humanities - All Resources</a></li>
                             </ul>
                             <!--level 2 end -->
                         </li>
@@ -497,12 +505,6 @@
                                 </ul>
                             </div>
                             <!--process-wrap   end-->
-                            <div class="fl-wrap mar-top">
-                                <div class="srv-link-text">
-                                    <h4>Need more info ? Visit my services page :  </h4>
-                                    <a href="services.html" class="btn float-btn flat-btn color-btn">My Services</a> 
-                                </div>
-                            </div>
                         </div>
                         <div class="bg-parallax-module" data-position-top="90"  data-position-left="30" data-scrollax="properties: { translateY: '-150px' }"></div>
                         <div class="bg-parallax-module" data-position-top="80"  data-position-left="80" data-scrollax="properties: { translateY: '350px' }"></div>
@@ -796,18 +798,6 @@
                         </div>
                         <!--slider-carousel-wrap end-->
                         <!-- client-list -->
-                        <div class="fl-wrap">
-                            <div class="container">
-                                <ul class="client-list client-list-white">
-                                    <li><a href="#" target=""><img src="images/clients/1.png" alt=""></a></li>
-                                    <li><a href="#" target=""><img src="images/clients/1.png" alt=""></a></li>
-                                    <li><a href="#" target=""><img src="images/clients/1.png" alt=""></a></li>
-                                    <li><a href="#" target=""><img src="images/clients/1.png" alt=""></a></li>
-                                    <li><a href="#" target=""><img src="images/clients/1.png" alt=""></a></li>
-                                </ul>
-                            </div>
-                            <!-- client-list end-->
-                            <div class="fl-wrap limit-box"></div>
                     </section>
                     <!-- section end -->                    
                     <!-- section-->
